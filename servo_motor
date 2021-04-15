@@ -1,6 +1,6 @@
 /* 使用可变电位计控制舵机转动 */
 
-#include
+#include <Servo.h>
 Servo myservo; // 创建一个 servo object
 int potpin = 0; // analog pin 用来连接电位计
 int val; // val存储analog pin的值
